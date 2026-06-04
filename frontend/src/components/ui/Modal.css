@@ -1,0 +1,10 @@
+
+.modal-overlay { position: fixed; inset: 0; background: var(--color-backdrop); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.modal-content { background: var(--color-bg-surface); border-radius: var(--radius-xl); max-height: 85vh; overflow-y: auto; }
+.modal-sm { width: 400px; }
+.modal-md { width: 560px; }
+.modal-lg { width: 720px; }
+.modal-header { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px 0; }
+.modal-header h2 { font-size: 18px; }
+.modal-close { background: none; font-size: 20px; color: var(--color-text-muted); }
+.modal-body { padding: 20px 24px; }

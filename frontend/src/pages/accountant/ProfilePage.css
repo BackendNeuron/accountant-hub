@@ -1,0 +1,6 @@
+.profile-page { padding: 32px 24px; max-width: 720px; }
+.profile-tabs { display: flex; gap: 0; margin: 24px 0; border-bottom: 2px solid var(--color-border); }
+.profile-tab { padding: 10px 20px; font-size: 14px; color: var(--color-text-muted); background: none; border: none; cursor: pointer; position: relative; }
+.profile-tab.active { color: var(--color-primary); }
+.profile-tab.active::after { content: ''; position: absolute; bottom: -2px; left: 0; right: 0; height: 2px; background: var(--color-primary); }
+.saved-msg { color: var(--color-primary); font-size: 13px; margin-left: 12px; }

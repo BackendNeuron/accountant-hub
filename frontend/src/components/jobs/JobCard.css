@@ -1,0 +1,7 @@
+.job-card-link { text-decoration: none; color: inherit; display: block; }
+.job-card-closed { opacity: 0.7; }
+.job-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.job-card-title { margin-bottom: 2px; }
+.job-card-company { font-size: 13px; color: var(--color-text-muted); margin-bottom: 6px; }
+.job-card-desc { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 10px; line-height: 1.5; }
+.job-card-tags { display: flex; gap: 4px; margin-bottom: 10px; }

@@ -1,0 +1,17 @@
+
+.input-group { margin-bottom: 16px; }
+.input-label { display: block; font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 6px; }
+.required { color: var(--color-danger); margin-left: 2px; }
+.input-wrapper { position: relative; display: flex; align-items: center; }
+.input-field { width: 100%; padding: 10px 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-bg-surface); color: var(--color-text-primary); font-size: 14px; transition: border-color 0.2s, box-shadow 0.2s; }
+.input-field:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(1,154,81,0.12); }
+.input-error .input-field { border-color: var(--color-danger); }
+.input-error-text { font-size: 12px; color: var(--color-danger); margin-top: 4px; display: block; }
+.input-hint { font-size: 12px; color: var(--color-text-muted); margin-top: 4px; display: block; }
+.input-prefix, .input-suffix { padding: 0 10px; color: var(--color-text-muted); font-size: 13px; }
+.select-field { appearance: none; padding-right: 32px; }
+.select-chevron { position: absolute; right: 10px; color: var(--color-text-muted); pointer-events: none; font-size: 10px; }
+.textarea-field { resize: vertical; min-height: 80px; }
+.textarea-footer { display: flex; justify-content: space-between; }
+.char-count { font-size: 11px; color: var(--color-text-muted); }
+.checkbox-label { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-text-secondary); cursor: pointer; margin-bottom: 8px; }

@@ -1,0 +1,17 @@
+
+.sidebar { width: 240px; flex-shrink: 0; }
+.sidebar-body { display: flex; flex-direction: column; gap: 16px; }
+.sidebar-header { display: none; }
+.sidebar-close { display: none; }
+.filter-group { display: flex; flex-direction: column; gap: 4px; }
+.filter-label { font-size: 12px; font-weight: 600; color: var(--color-text-primary); text-transform: uppercase; letter-spacing: 0.5px; }
+.filter-range { display: flex; gap: 8px; align-items: center; }
+.filter-range input { width: 80px; }
+.sidebar-footer { margin-top: 16px; }
+@media (max-width: 1023px) {
+  .sidebar { position: fixed; left: -280px; top: 0; bottom: 0; width: 280px; background: var(--color-bg-surface); z-index: 900; transition: left 0.3s; padding: 20px; overflow-y: auto; }
+  .sidebar-open { left: 0; }
+  .sidebar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .sidebar-close { display: block; background: none; font-size: 20px; }
+  .sidebar-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 899; }
+}

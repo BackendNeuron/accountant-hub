@@ -1,0 +1,4 @@
+
+.layout { min-height: 100vh; display: flex; flex-direction: column; }
+.main-content { flex: 1; }
+.loading-screen { display: flex; align-items: center; justify-content: center; height: 100vh; font-size: 18px; color: var(--color-text-muted); }
