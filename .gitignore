@@ -18,3 +18,4 @@ setup_phase2.py
 setup_frontend_phase1.py
 setup_frontend_phase2.py
 setup_frontend_phase3.py
+.env

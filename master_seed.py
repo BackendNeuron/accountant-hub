@@ -25,7 +25,7 @@ from app.models.client_profile import ClientProfile
 from app.models.job import Job
 from app.utils.security import hash_password
 
-DATABASE_URL = "postgresql+asyncpg://postgres:mohamedhoss@localhost:5432/accountant_hub"
+DATABASE_URL = "postgresql+asyncpg://postgres:YOUR_PASSWORD@localhost:5432/YOUR_DB_NAME"
 
 engine = create_async_engine(DATABASE_URL, echo=False)
 AsyncSessionLocal = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
