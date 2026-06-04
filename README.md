@@ -1,5 +1,3 @@
----
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -376,4 +374,3 @@ All endpoints are prefixed with `/api/v1/`. Protected routes require a `Bearer` 
 
 9. **Deployment** — Deployed on a personal server using Docker. The React frontend is served via a Docker image from a private image registry. A `docker-compose` file was intentionally not included at this stage — for MVP scope, each service is run independently via Docker. A full `docker-compose` orchestration setup is a straightforward next step and was left out by design, not oversight. Environment variables and secrets are managed via `.env` files and are not committed to the repository.
 
----
