@@ -8,3 +8,13 @@ uploads/*
 !uploads/.gitkeep
 *.db
 .pytest_cache/
+adding_certicatesSave_endpoint.py
+fix_backend_duringTest.py
+fix_smoke.py
+test_results.txt
+test_smoke.py
+setup_all.py
+setup_phase2.py
+setup_frontend_phase1.py
+setup_frontend_phase2.py
+setup_frontend_phase3.py
